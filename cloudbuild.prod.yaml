@@ -31,3 +31,5 @@ substitutions:
     _SERVICE_NAME     : my-docker-app-prod
     _DOCKER_REGISTRY  : roman-docker-repo
     _DOCKER_IMAGENAME : myapp-prod
+defaultLogsBucketBehavior:
+    REGIONAL_USER_OWNED_BUCKET
